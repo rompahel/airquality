@@ -29,10 +29,10 @@ import seaborn as sns
 # Data Wrangling and Loading Data
 st.header('Data Wrangling')
 st.subheader('Gathering Data')
-file_path = '../data/Cleaned_PRSA_Data_20130301-20170228(2).csv'
+url = 'https://raw.githubusercontent.com/rompahel/airquality/refs/heads/main/data/Cleaned_PRSA_Data_20130301-20170228(2).csv'
 
 # Load the dataset
-data = pd.read_csv(file_path)
+data = pd.read_csv(url)
 st.dataframe(data.head())
 
 # Data Assessment Insight
