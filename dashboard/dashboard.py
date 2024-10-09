@@ -106,7 +106,7 @@ Pertanyaan 1:**
 """)
 
 st.markdown("""
-Visualisasi Pertanyaan 1:**
+Visualisasi Pertanyaan 2:**
 """)
 
 # Monthly Average PM10 Levels Over Time
