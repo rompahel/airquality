@@ -84,6 +84,10 @@ st.markdown("""
 - This indicates a potential seasonal pattern where air quality improves during the summer and worsens in the spring.
 """)
 
+st.markdown("""
+Visualisasi Pertanyaan 1:**
+""")
+
 # Correlation Heatmap Visualization
 st.subheader('Correlation Analysis')
 
@@ -96,9 +100,13 @@ st.pyplot(plt)
 
 # Insight for Heatmap
 st.markdown("""
-**Insight:**
+Pertanyaan 1:**
 - The heatmap reveals a weak negative correlation between wind speed (WSPM) and PM2.5 levels, indicating that higher wind speeds tend to slightly reduce the concentration of PM2.5 particles in the air.
 - This supports the idea that wind plays a role in dispersing particulate matter, contributing to better air quality.
+""")
+
+st.markdown("""
+Visualisasi Pertanyaan 1:**
 """)
 
 # Monthly Average PM10 Levels Over Time
@@ -118,7 +126,7 @@ st.pyplot(plt)
 
 # Insight for Monthly Trend
 st.markdown("""
-**Insight:**
+**Pertanyaan 2:**
 - The line plot of monthly average PM10 levels shows clear seasonal variations, with higher concentrations observed in Spring and lower levels during the Summer.
 - This trend suggests that air quality tends to worsen in Spring, possibly due to increased industrial activity or natural events, and improves in Summer, likely due to favorable weather conditions.
 """)
