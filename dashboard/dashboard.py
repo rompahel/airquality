@@ -84,9 +84,7 @@ st.markdown("""
 - This indicates a potential seasonal pattern where air quality improves during the summer and worsens in the spring.
 """)
 
-st.markdown("""
-Visualisasi Pertanyaan 1:**
-""")
+st.subheader('Pertanyaan 1')
 
 # Correlation Heatmap Visualization
 st.subheader('Correlation Analysis')
@@ -105,9 +103,7 @@ Pertanyaan 1:**
 - This supports the idea that wind plays a role in dispersing particulate matter, contributing to better air quality.
 """)
 
-st.markdown("""
-Visualisasi Pertanyaan 2:**
-""")
+st.subheader('Pertanyaan 1')
 
 # Monthly Average PM10 Levels Over Time
 st.subheader('Seasonal Trends in PM10 Levels')
